@@ -13,7 +13,11 @@ Page({
       { name: "Product 3" },
       { name: "Product 4" }
     ],
-    condition: 2
+    condition: 2,
+    tmpdata: {
+      name: "test",
+      phone: "15685648564"
+    }
   },
 
   /**
