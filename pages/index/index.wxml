@@ -4,7 +4,7 @@
   <block wx:for="{{items}}" wx:for-item="item" wx:key="index" >
     <view>{{index}}:{{item.name}}</view>
   </block>
-  <view>今天吃什么？</view>
+  <view class="container" >今天吃什么？</view>
   <view wx:if="{{condition === 1}}">
     饺子
   </view>
