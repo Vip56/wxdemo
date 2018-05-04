@@ -27,4 +27,7 @@
   <view>采用include引用模板</view>
   <include src="b.wxml"></include>
   <template is="t3" data="{{...tmpdata}}"></template>
+  <view>来自wxs</view>
+  <wxs src="index.wxs" module="m1" />
+  <view>{{m1.message}}</view>
 </view>
