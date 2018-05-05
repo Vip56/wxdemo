@@ -19,6 +19,15 @@ Page({
       phone: "15685648564"
     }
   },
+  clickA() {
+    console.log("A");
+  },
+  clickB() {
+    console.log("B");
+  },
+  clickC() {
+    console.log("C");
+  },
 
   /**
    * 生命周期函数--监听页面加载
