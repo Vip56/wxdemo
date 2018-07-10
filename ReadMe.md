@@ -1,4 +1,7 @@
-## 小程序学习课程
+## 小程序学习课程  
+
+### 第三方资源   
+* 微信官方weui wxss文件库：https://github.com/Tencent/weui-wxss
 
 ### 细节经验总结
 
@@ -18,4 +21,7 @@ inport只会引用template内的的内容，动态的传入数据，is表示引�
 #### 17节
 * rpx单位是微信小程序中css的尺寸单位，rpx可以根据屏幕宽度进行自适应。规定屏幕宽为750rpx。如在 iPhone6 上，屏幕宽度为375px，共有750个物理像素，则750rpx = 375px = 750物理像素，1rpx = 0.5px = 1物理像素。   
 * rem（font size of the root element）是指相对于根元素的字体大小的单位。简单的说它就是一个相对单位。看到rem大家一定会想起em单位，em（font size of the element）是指相对于父元素的字体大小的单位。它们之间其实很相似，只不过一个计算的规则是依赖根元素一个是依赖父元素计算。   
+
+#### 30节   
+* 无论`hover-stop-propagation`属性为任何值，均会父类试图组件无法接受到点击事件。   
 

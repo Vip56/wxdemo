@@ -1,13 +1,19 @@
-// pages/index/index.js
+// pages/language/language.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-
-  },
-
-  navigateToE() {
-    wx.navigateTo({
-      url: '/pages/order/order'
-    })
+    flag: false,
+    message: "wxdemo",
+    items: [
+      { name: "Product 1" },
+      { name: "Product 2" },
+      { name: "Product 3" },
+      { name: "Product 4" }
+    ],
+    condition: 2
   },
 
   /**
@@ -28,7 +34,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**

@@ -1,13 +1,20 @@
-// pages/index/index.js
+// pages/event/event.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-
+  
   },
-
-  navigateToE() {
-    wx.navigateTo({
-      url: '/pages/order/order'
-    })
+  clickA() {
+    console.log("A");
+  },
+  clickB() {
+    console.log("B");
+  },
+  clickC() {
+    console.log("C");
   },
 
   /**
@@ -28,7 +35,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**

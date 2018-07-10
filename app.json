@@ -1,6 +1,12 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/language/language",
+    "pages/template/template",
+    "pages/event/event",
+    "pages/viewcontrol/viewcontrol",
+    "pages/scroll-view/scrollview",
+    "pages/swiper/swiper"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,40 +1,10 @@
 <!--pages/index/index.wxml-->
-<view hidden="{{flag ? true : false}}" >
-  <text data-name="{{message}}" >{{message}}</text>
-  <block wx:for="{{items}}" wx:for-item="item" wx:key="index" >
-    <view>{{index}}:{{item.name}}</view>
-  </block>
-  <view class="container" >今天吃什么？</view>
-  <view wx:if="{{condition === 1}}">
-    饺子
-  </view>
-  <view wx:elif="{{condition === 2}}">
-    米饭
-  </view>
-  <view wx:else>
-    面食
-  </view>
-  <template name="t1" >
-    <view>
-      <view>收件人：{{name}}</view>
-      <view>联系方式：{{phone}}</view>
-    </view>
-  </template>
-  <template is="t1" data="{{...tmpdata}}"></template>
-  <view>采用import引用模板</view>
-  <import src="a.wxml"></import>
-  <template is="t2" data="{{...tmpdata}}"></template>
-  <view>采用include引用模板</view>
-  <include src="b.wxml"></include>
-  <template is="t3" data="{{...tmpdata}}"></template>
-  <view>来自wxs</view>
-  <wxs src="index.wxs" module="m1" />
-  <view>{{m1.message}}</view>
-  <view capture-bind:tap="clickA">
-  AAAAA
-    <view bindtap='clickB' >
-    BBBBBB
-      <view capture-catch:tap='clickC' >CCCCC</view>
-    </view>
-  </view>
+<view>
+  <navigator open-type='navigateTo' url='/pages/language/language' >基本wxml语法</navigator>
+  <navigator open-type='navigateTo' url='/pages/event/event' >事件流</navigator>
+  <navigator open-type='navigateTo' url='/pages/template/template' >模板与WXS</navigator>
+  <navigator open-type='navigateTo' url='/pages/viewcontrol/viewcontrol' >视图控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/scroll-view/scrollview' >滚动控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/swiper/swiper' >轮播控件</navigator>
+  <view bindtap="navigateToE" >NavigateTo事件跳转</view>
 </view>

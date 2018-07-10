@@ -1,13 +1,14 @@
-// pages/index/index.js
+// pages/template/template.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-
-  },
-
-  navigateToE() {
-    wx.navigateTo({
-      url: '/pages/order/order'
-    })
+    tmpdata: {
+      name: "test",
+      phone: "15685648564"
+    }
   },
 
   /**
@@ -28,7 +29,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**
