@@ -6,5 +6,10 @@
   <navigator open-type='navigateTo' url='/pages/viewcontrol/viewcontrol' >视图控件</navigator>
   <navigator open-type='navigateTo' url='/pages/scroll-view/scrollview' >滚动控件</navigator>
   <navigator open-type='navigateTo' url='/pages/swiper/swiper' >轮播控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/movable/movable'>移动控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/cover/cover'>覆盖控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/icon/icon'>图标控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/text/text'>文本控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/progress/progress'>进度条控件</navigator>
   <view bindtap="navigateToE" >NavigateTo事件跳转</view>
 </view>
