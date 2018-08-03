@@ -25,3 +25,5 @@ inport只会引用template内的的内容，动态的传入数据，is表示引�
 #### 30节   
 * 无论`hover-stop-propagation`属性为任何值，均会父类试图组件无法接受到点击事件。   
 
+#### 39节   
+* 当按钮指定`Type`为`default`后通过属性`hover-class`指定的背景色将无法体现。   

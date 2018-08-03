@@ -7,7 +7,7 @@ Page({
   data: {
     text: initData,
     nodes: [{
-      name: 'dev',
+      name: 'div',
       attrs: {
         class: 'div_class',
         style: 'line-height: 60px; color: red;'
