@@ -12,5 +12,6 @@
   <navigator open-type='navigateTo' url='/pages/text/text'>文本控件</navigator>
   <navigator open-type='navigateTo' url='/pages/progress/progress'>进度条控件</navigator>
   <navigator open-type='navigateTo' url='/pages/button/button'>按钮控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/checkbox/checkbox'>复选控件</navigator>
   <view bindtap="navigateToE" >NavigateTo事件跳转</view>
 </view>
