@@ -18,6 +18,7 @@ Page({
   checkboxChange: function(e) {
     console.log("checkbox发生change事件，携带value值为：", e);
 
+    // 保存状态值
     let items = this.data.items, values = e.detail.value;
     for (let i = 0, lenI = items.length; i < lenI; ++i) {
       items[i].checked = false;
