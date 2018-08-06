@@ -18,5 +18,6 @@
   <navigator open-type='navigateTo' url='/pages/label/label'>label控件</navigator>
   <navigator open-type='navigateTo' url='/pages/picker/picker'>picker控件</navigator>
   <navigator open-type='navigateTo' url='/pages/pickerView/pickerView'>pickerView控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/slider/slider'>slider控件</navigator>
   <view bindtap="navigateToE" >NavigateTo事件跳转</view>
 </view>
