@@ -19,5 +19,10 @@
   <navigator open-type='navigateTo' url='/pages/picker/picker'>picker控件</navigator>
   <navigator open-type='navigateTo' url='/pages/pickerView/pickerView'>pickerView控件</navigator>
   <navigator open-type='navigateTo' url='/pages/slider/slider'>slider控件</navigator>
-  <view bindtap="navigateToE" >NavigateTo事件跳转</view>
+  <navigator open-type='navigateTo' url='/pages/navigator/pageA/navigator'>navigator控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/audio/audio'>audio控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/images/images'>image控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/video/video'>video控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/map/map'>map控件</navigator>
+  <navigator open-type='navigateTo' url='/pages/canvas/canvas'>canvas控件</navigator>
 </view>

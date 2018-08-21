@@ -27,3 +27,6 @@ inport只会引用template内的的内容，动态的传入数据，is表示引�
 
 #### 39节   
 * 当按钮指定`Type`为`default`后通过属性`hover-class`指定的背景色将无法体现。   
+
+#### 51节   
+* 1.6.0 版本开始，该组件不再维护。建议使用能力更强的 wx.createInnerAudioContext 接口

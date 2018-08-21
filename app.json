@@ -19,7 +19,16 @@
     "pages/label/label",
     "pages/picker/picker",
     "pages/pickerView/pickerView",
-    "pages/slider/slider"
+    "pages/slider/slider",
+    "pages/navigator/pageA/navigator",
+    "pages/navigator/pageB/navigate",
+    "pages/navigator/pageC/redirect",
+    "pages/navigator/pageD/pageD",
+    "pages/audio/audio",
+    "pages/images/images",
+    "pages/video/video",
+    "pages/map/map",
+    "pages/canvas/canvas"
   ],
   "window": {
     "backgroundTextStyle": "light",
